@@ -1,7 +1,8 @@
 #####
 stock-screener-roadmap/checklist
 #####
--{}- Find comparable repositorys 
+-{x}- Import librarys for Code
+-{X}- Find comparable repositorys 
 -{}- Import data from stocks
 -{}-process and check data form stocks
 -{}- make a list of requirements
