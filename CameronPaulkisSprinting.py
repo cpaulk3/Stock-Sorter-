@@ -17,3 +17,6 @@ startday=1
 start=dt.datetime(startyear,startmonth,startday)
 
 now=dt.datetime.now()
+
+df=pdr.get_data_yahoo(stock,start,now)
+print(df)
