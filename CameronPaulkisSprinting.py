@@ -20,3 +20,11 @@ now=dt.datetime.now()
 
 df=pdr.get_data_yahoo(stock,start,now)
 print(df)
+
+### taking a moving average 
+ma=30
+### leaving the string open if i deside to change how long the average is 
+smaString="Sma_"+str(ma)
+
+df[smaString]=df.iloc[:,4].rolling(window=ma).mean()
+print(df)
